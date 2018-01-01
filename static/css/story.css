@@ -1,0 +1,57 @@
+h1{
+	background: #cc6600;
+}
+.tittle{
+	color:black;
+	text-align:center;
+	font-size:40px;
+}
+div{background: #FFE4B5;
+}
+
+.chapter{
+	font-size:30px;
+
+}
+.catalog{
+}
+.bottem{
+	text-align:center;
+
+}
+.catalog{
+	/*height: 70px;*/
+	/*background: #d8d8d8;*/
+    margin-bottom: 24px;
+    text-align: center;
+    border: 1px solid #d8d8d8;
+
+}
+.dib-wrap {
+    font-size: 0;
+    word-spacing: 1x
+}
+.catalog a {
+	text-align: left;
+    font: 18px / 70px PingFangSC-Regular, HelveticaNeue-Light, 'Helvetica Neue Light', 'Microsoft YaHei', sans-serif;
+    width: 33.2%;
+    height: 50px;
+}
+.catalog a:hover {
+    color: #1a1a1a;
+    background: #ede9e1;
+    background: rgba(0, 0, 0, .03)
+}
+
+.catalog a.disabled {
+    cursor: default;
+    color: #ccc;
+    background: 0 0
+}
+
+.dib-box a, .dib-box span, .dib-wrap a, .dib-wrap span {
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: normal;
+    word-spacing: normal
+}

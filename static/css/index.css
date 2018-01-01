@@ -1,0 +1,75 @@
+*, ::after, ::before {
+ -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+ -moz-tap-highlight-color:rgba(0, 0, 0, 0);
+ -o-tap-highlight-color:rgba(0, 0, 0, 0);
+ tap-highlight-color:rgba(0, 0, 0, 0);
+/*    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -o-text-size-adjust:none;
+    text-size-adjust:none;
+*/}
+/*article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}*/
+body, h1, h2, h3, h4, h5, h6, p, div, ul, li, dl, dt, dd, h1 {margin:0;padding: 0;}
+html {background:#fff;font:16px/1.5 'microsoft yahei';}
+input, textarea {font-size:12px;font-family:"微软雅黑";}
+li {list-style:none;}
+img {border:none;margin:0;padding:0;}
+a {color:#000; text-decoration:none;}
+body {
+    background:#fff;
+    color:#999;
+}
+.header{
+	background: #4169E1;
+	height: 92px;
+	font-size: 100%;
+}
+.head{
+	float: left;
+}
+.login{
+	float: right;
+	margin-right: 30px;
+	font-size: 60px;
+}
+.navigation {
+    float:left;
+    width:100%;
+    border:1px solid red;
+    background-color:blue;    
+    height:100px; 
+    /*line-height:-5%;*/
+    overflow:hidden;
+    /*margin-bottom:10px;*/
+}
+.navigation ul li{
+	border:1px solid white;
+	background: red;
+    color:#333;
+    align:center;
+    display:block;
+    width:19%;
+    overflow:hidden;
+    height:100px;
+    font-size: 60px;
+    float:left;
+    text-align: center;
+}
+a.head_none {
+	text-decoration: none;
+	color: white;
+	font-size: 60px;
+	height: 100%;
+	margin-left: 10%;
+}
+a.login_botton {
+	text-align: center;
+	padding: 6px 3px;
+	margin-left:30px;
+	background: #6495ED;
+	color: white;
+	text-decoration: none;
+}
+
+
+

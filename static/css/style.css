@@ -1,0 +1,136 @@
+/* basic */
+* { margin: 0; padding: 0; list-style: none; outline:0;}
+body { color: #333; font:16px/1.5 'microsoft yahei';}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+address, caption, cite, code, dfn, em, strong, th, var, i, b, time, small { font-weight: normal; font-style: normal; }
+ul, ol, li { list-style: none; }
+fieldset, img { border: 0px; }
+hr { height: 2px; border: 2px solid #f60; clear: both; margin: 5px 0px; }
+h1, h2, h3, h4, h5, h6 { font-size: 16px; }
+input{font-family:'microsoft yahei';}
+a { color: #333; text-decoration: none; outline: none; blr: expression(this.onFocus=this.blur()); }
+.clrfix:after{content:".";display:block;clear:both;height:0;font-size:0;line-height:0;visibility:hidden}
+.clrfix{zoom:1;}
+.fix, .lm { white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; }
+.fl { float: left; }
+.fr { float: right; }
+.l { float: left; }
+.r { float: right; }
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+.t10 { margin-top: 10px; }
+/* table */
+table { border-collapse: collapse; border-spacing: 0; }
+table.fix { table-layout: fixed; }
+table.fix td { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; }
+table.grid { border-collapse: collapse; padding: 3px; margin: auto; }
+table.grid caption, .gridtop { border-bottom: 1px solid #ddd; border-bottom: 0; vertical-align: middle; text-align: center; padding: 6px 3px; background: #fff; color: #129151; font-weight: bold; font-size: 14px; margin: auto; }
+table.grid th, .head { background: #fff; border-top: 1px solid #ddd;text-align: center; font-size: 12px; padding: 6px 3px; }
+table.grid td { border-top: 1px solid #ddd; padding: 6px 3px; background-color: #ffffff !important; }
+table.hide, table.hide th, table.hide td { border: 0; }
+/* table add-ons */
+td.title { background: #ddd; text-align: center; padding: 3px; font-weight: bold; font-size: 14px; }
+.even { background: #ffffff; padding: 3px; }
+.odd { background: #ffffff; padding: 3px; }
+.foot { background: #ddd; padding: 3px; text-align: center; }
+.bottom { height: 9px; background: #ddd; }
+/* form */
+input,textarea{outline:none}
+.text { border: 1px solid #ddd; height: 18px; line-height: 18px; }
+.textarea { border: 1px solid #ddd; background: #ffffff; }
+.button { background: #666; border: 1px solid #ddd; height: 20px; padding: 1px 10px 3px; color: #fff; }
+.checkbox, .radio { border-width: 0px; }
+.select { border: 1px solid #ddd; height: 20px; background: #fff; }
+/* structure */
+#main {margin: 0 auto; clear: both;overflow:hidden;}
+.topbar {border-bottom:1px solid #ddd;height:50px;line-height:50px;background:#129151;font-size:20px;color:#fff;position: relative; z-index: 10;overflow:hidden;}
+.topbar a{color:#fff;}
+.topbar .c2{display:none;width:0;height:0;font-size:0;}
+.topbar .c1{display:block;padding: 0 10px;height: 28px;line-height: 28px;font-size: 14px;background-color: #03ae58;border-radius: 3px;position: absolute;left:10px;top:10px}
+.topbar .c4{display:block;padding: 0 10px;height: 28px;line-height: 28px;font-size: 14px;background-color: #03ae58;border-radius: 3px;position: absolute;right:10px;top:10px}
+.topbar .c3{display:block;font-size:20px;width:auto;padding:0 50px;text-align:center;overflow:hidden;white-space:nowrap;}
+.topbar .logo{float:left;margin-left:10px;}
+.topbar .user{float:right;padding-right:10px;}
+.topbar .user a{padding:0 5px;height: 24px;line-height:24px;background: #03ae58;border-radius: 3px;font-size: 14px;display:inline-block;margin-left:10px;}
+.subnav{background:#ececec;border-bottom:1px solid #e5e5e5;height:36px;line-height:36px;overflow:hidden;}
+.subnav ul li{float:left;width:20%;text-align:center;overflow:hidden;}
+.subnav ul li a{display:block;}
+.searchbar{padding:10px;overflow:hidden;}
+.searchwrap {overflow: hidden;background: #fff;border: 1px solid #e5e5e5;position: relative;padding: 0 50px 0 8px;}
+.searchwrap .search-text{border: 0;background: transparent;width: 100%;margin: 4px 0; color: #bcbcbc;line-height: 20px;display: block;font-size:16px}
+.searchwrap span {position: absolute;top: -1px;right: 0;display: block;width: 50px;height: 30px;background: url(http://oss-asq-static.11222.cn/booktouch/img/sqicon.png) no-repeat -140px -96px;background-size: 180px 200px;}
+.searchwrap .search-submit{width: 50px;height: 30px;border: 0px;background-color: transparent;z-index: 9999;}
+.inner{clear:both;overflow:hidden;}
+.details {padding:0 10px 10px;}
+.title { height: 36px; line-height: 36px; border-bottom: 2px solid #129151; background-color: #ececec;font-weight: bold; padding: 0 15px;color: #129151;}
+.item-list li{padding:5px 0; border-bottom:1px dotted #ddd;color:gray; overflow: hidden; white-space: nowrap; }
+.item-type {margin:10px 0 5px;overflow:hidden;}
+.item-type li{height: 32px; line-height: 32px; border:1px solid #ddd;overflow: hidden; white-space: nowrap; width:23%;float:left;text-align:center;margin:0 0.5% 5px;}
+.item-type li a{display:block;}
+.pages { padding: 10px 0 0; text-align:center;clear: both; }
+.pages a{text-align: center;padding: 4px 15px 4px 15px;margin-right: 5px;border-radius: 3px;border: 1px solid #03ae58;color: #129151;}
+.pages kbd { color:#bbb; font:16px/1.5 'microsoft yahei';}
+
+.book-about{padding: 0 10px 10px;background:#fff;border-bottom:1px solid #ddd;text-align:center;}
+.book-info h1 { font-size: 30px; font-weight: bold; color: #129151; float:left;}
+.book-info em {padding: 18px 0 0 20px; color: #999; float:left;}
+.stats{clear:both;line-height:32px;color:#999;}
+.stats i{color:#333;margin-right:10px;}
+.stats .l,.book-info .l{display:block;float:none;text-align:left;overflow:hidden;}
+.stats .r,.book-info .r{display:block;float:none;text-align:left;border-top:1px dotted #ddd;overflow:hidden;}
+.book-info .r{border:none;padding:5px 0;}
+.book-info .r a{padding:5px 0;border:1px solid #03ae58;border-radius: 3px;display:inline-block;margin-right: 2%;width:30%;color:#129151;text-align:center;}
+.intro{clear:both;line-height:24px;max-height:240px;text-align:left;color:#999;border-top:1px dotted #ddd;overflow:hidden;}
+.chapter-list {padding:0 10px;clear: both; }
+.chapter-list dt {overflow:hidden;white-space:nowrap;}
+.chapter-list dd { border-bottom: 1px solid #efefef;padding-bottom: 5px;padding-top: 5px;color: #999;display: list-item;background: url(/images/list.png) no-repeat scroll right center transparent;overflow:hidden;white-space:nowrap;}
+.chapter-list dd a{display:left;}
+.bookset { height: 32px;padding-top: 10px;font-size: 12px;width: 100%;background-color: #ececec;border-bottom:1px solid #ddd;}
+.bookset .set1{float: right;border: 1px solid #03ae58;padding: 2px 10px;margin-right: 10px;border-radius: 5px;color: #129151;}
+.bookset .set2 div {border: 1px solid #03ae58;float: left;padding: 2px 7px;margin-left: 5px;border-radius: 3px;color: #129151;}
+#BookBody{background: #e7f4fe;}
+article h1 {font-size: 20px; font-weight: bold; text-align: center; padding: 10px 0; }
+article .link {text-align: center;padding: 5px 0 10px; color: gray; clear: both; overflow:hidden;}
+article .link a{display:inline-block;width:18%;border: 1px solid #03ae58;padding: 2px 0;margin:0 0.5%;border-radius: 3px;color: #129151;}
+article #content { clear: both; line-height: 150%; padding:10px;margin:0 auto;}
+footer {border-top: 1px solid #ddd;background: #ececec;text-align: center;color:#999;padding:0 0 5px;overflow:hidden;clear:both;}
+footer p{font-size:12px;padding-top:5px;}
+footer p.tg{display:none;width:0;height:0;font-size:0;}
+footer ul{overflow:hidden;padding:10px 0;}
+footer ul li{float:left;width:20%;text-align:center;line-height:36px;overflow:hidden;}
+footer ul li a{display:block;}
+/* interface */
+.jieqiQuote, .jieqiCode, .jieqiNote { border: #000000 1px solid; padding: 2px; font-size: 12px; color: #000000; background-color: #d3d2d2; }
+.divbox { border: 1px solid #d3d2d2; margin-bottom: 3px; text-align: center; }
+.textbox { border: 1px solid #d3d2d2; padding: 5px; margin: 3px; line-height: 150%; }
+.popbox { position: absolute; width: 190px !important; height: 110px !important; width: 200px; height: 120px; border: 1px solid #d3d2d2; background: #f0f7ff; color: #ff0000; font-size: 12px; line-height: 120%; padding: 3px; display: none; z-index: 9999; }
+.ajaxtip { position: absolute; border: 1px solid #d3d2d2; background: #f0f7ff; color: #ff0000; font-size: 12px; line-height: 150%; padding: 3px; z-index: 1000; }
+#tips { border: 1px solid #d3d2d2; padding: 3px; display: none; background: #f0f7ff; position: absolute; z-index: 2000; }
+#dialog { position: absolute; top: 0px; left: 0px; border: 5px solid #8bcee4; background: #f1f5fa; font-size: 12px; line-height: 150%; padding: 20px 10px 10px 10px; visibility: hidden; }
+#mask { position: absolute; top: 0px; left: 0px; background: #777777; filter: Alpha(opacity=30); opacity: 0.3; }
+
+/*msg*/
+.msgBox { width: 500px; background: #fff; margin: 0 auto; text-align: center; border-radius: 5px; box-shadow: 0 0 10px 10px rgba(0,0,0,0.25); font: 12px/1.6em "Microsoft YaHei" ,Arial,sans-serif; }
+.msgBox h6 { font-size: 25px; font-weight: normal; background: #149b57; color: #fff; padding: 15px 0; border-top-right-radius: 5px; border-top-left-radius: 5px; }
+.msgBox ul { padding: 20px; font-size: 14px; line-height: 185%; }
+.msgBox ol { padding: 10px; }
+.msgBox dl { border-top: 1px dashed #ddd; padding: 5px; font-size: 12px; }
+
+/*login*/
+.login { margin: 10px 7px 10px 7px; }
+.login div { display: block; overflow: hidden; }
+.login table { width: 100%; }
+.login table .td1 { width: 80px; padding: 20px 0px; }
+.login_name { border: 1px solid #129151; height: 25px; width: 95%; border-radius: 3px; }
+.login_btn { display: block; background-color: #03ae58; margin: 20px 5px 20px 5px; text-align: center; color: #fff; font-weight: bold; height: 40px; line-height: 40px; border-radius: 2px; }
+.login_btn a { color: #fff; }
+.login_tips { display: block; margin: 20px 10px 20px 10px; text-align: center; color: red; font-weight: bold; height: 40px; line-height: 40px; border-radius: 2px; }
+.btn { border: none; width: 100%; font-weight: bold; background: #03ae58; color: white; border-radius: 3px; font-size: 16px; font-family: "microsoft yahei"; cursor: pointer; }
+#info { height: 30px; line-height: 30px; text-align: right; color: #fff; padding-right: 15px; background-color: #03ae58; font-size: 14px; }
+
+.error { margin-bottom:10px; padding: 32px; }
+.error h1 { font-weight: bold; font-size: 14px; padding-bottom: 20px; color: #f30; }
+.error h2 {font-weight: bold; padding:0 0 8px; margin: 0px 0px 8px; text-transform: uppercase; color: #999;  border-bottom: 1px solid #ddd; }
+.error p { padding: 6px 0; }
+.error a { color: #129151; }
